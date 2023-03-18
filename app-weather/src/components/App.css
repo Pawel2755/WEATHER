@@ -1,0 +1,70 @@
+.App input, .App button{
+  border-radius:20px ;
+  padding: 10px 20px;
+  border: 2px solid grey;
+  background-color:white;
+  transition: .9s;
+  
+}
+.App input{
+  margin-left: 30%;
+}
+
+.App button{
+  cursor: pointer;
+  margin: 30px;
+  
+}
+.App button:hover{
+  background-color: black;
+  color: white;
+  border-color:black;
+}
+.App{
+  background-color:lightskyblue;
+  height: 1500px;
+  
+}
+@media screen and (max-width: 535px) {
+  .App button{
+    margin-left: 40%
+    
+  }
+}
+
+@media  screen and (max-width: 375px) {
+  .App button{
+      margin-left: 35%;
+  }
+  .App input {
+    margin-left: 22%;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 414px){
+  .App input{
+    margin-left: 25%;
+    margin-top: 20px;
+  }
+  .App button{
+    margin-left: 38%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .App button{
+    margin-left: 40%;
+  }
+  .App input{
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 280px) {
+  .App input{
+    margin-left:15%
+  }
+  .App button{
+    margin-left: 30%;
+  }
+}
